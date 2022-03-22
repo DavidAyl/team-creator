@@ -1,5 +1,7 @@
 const inquirer = require("inquirer");
 
+let team = [];
+
 const whatRoleQuestion = {
     type: 'list',
     message: 'What role is this member?',
